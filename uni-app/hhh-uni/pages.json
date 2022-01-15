@@ -1,0 +1,62 @@
+{
+	"pages": [
+		{
+		"path": "pages/index/index",
+		"style":{
+			
+		}
+	},{
+		"path": "pages/goods/goods",
+		"style": {
+		        
+		        }
+	},{
+		"path": "pages/cart/cart",
+		"style": {
+		           
+		        }
+	},{
+		"path": "pages/user/user",
+		"style": {
+		            
+		        }
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni项目骨架",
+		"navigationBarBackgroundColor": "#4CD964",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"selectedColor":"#E43D33",
+		"backgroundColor":"#4CD964",
+		"list": [{
+			"pagePath":"pages/index/index",
+			"iconPath":"static/icon/index.png",
+			"selectedIconPath":"static/icon/index-active.png",
+			"text":"首页"
+		},
+		{
+			"pagePath":"pages/goods/goods",
+			"iconPath":"static/icon/goods.png",
+			"selectedIconPath":"static/icon/goods-active.png",
+			"text":"商品"
+		},
+		{
+			"pagePath":"pages/cart/cart",
+			"iconPath":"static/icon/cart.png",
+			"selectedIconPath":"static/icon/cart-active.png",
+			"text":"购物车"
+		},
+		{
+			"pagePath":"pages/user/user",
+			"iconPath":"static/icon/user.png",
+			"selectedIconPath":"static/icon/user-active.png",
+			"text":"我的"
+		}]
+	}
+}
